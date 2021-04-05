@@ -7,7 +7,7 @@ export function Footer() {
 				Copyright
 				<div
 					className="text-center p-3"
-					style="background-color: rgba(0, 0, 0, 0.2);">
+					style={{ backgroundColor: "gray" }}>
 					© 2020 Copyright:
 					<a className="text-dark" href="https://mdbootstrap.com/">
 						MDBootstrap.com

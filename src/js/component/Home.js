@@ -1,11 +1,11 @@
 import React from "react";
-import { Navbar } from "./Navbar.js";
-import { Body } from "./Body.js";
-import { Jumbotron } from "./Jumbotron.js";
-import { Card } from "./Card.js";
-import { Footer } from "./Footer.js";
+import { Navbar } from "../component/Navbar.js";
+import { Body } from "../component/Body.js";
+import { Jumbotron } from "../component/Jumbotron.js";
+import { Card } from "../component/Card.js";
+import { Footer } from "../component/Footer.js";
 
-function Home() {
+export function Home() {
 	return (
 		<div>
 			<Navbar />
